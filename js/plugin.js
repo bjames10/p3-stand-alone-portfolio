@@ -1,1 +1,1 @@
-// Plugins go here "JQuery"
+// jQuery Plugin
