@@ -1,3 +1,17 @@
-body{background:red}
+/* Styling */
+/* line 2, /Users/bjames10/Documents/p3-stand-alone-portfolio/css/styles.scss */
+body {
+  background: rgba(216, 0, 255, 0.1); }
+
+/* line 8, /Users/bjames10/Documents/p3-stand-alone-portfolio/css/styles.scss */
+figure {
+  background: rgba(216, 0, 255, 0.12);
+  width: 300px;
+  padding: 1em;
+  text-align: center; }
+
+/* line 15, /Users/bjames10/Documents/p3-stand-alone-portfolio/css/styles.scss */
+figure img {
+  box-shadow: 2px 2px 2px gray; }
 
 /*# sourceMappingURL=styles.css.map */
