@@ -2,7 +2,7 @@
 // Imports
 @import "_normalize";
 @import "_lightgallery";
-@import "lg-transitions";
+@import "_lg-transitions";
 
 body {
     background: lightyellow;
@@ -19,4 +19,6 @@ figure {
     text-align: center;
 }
 
-
+.lg-outer{
+    transition: background-color 600ms ease 0s;
+}

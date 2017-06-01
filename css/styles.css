@@ -1309,7 +1309,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 /* line 821, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/_lightgallery.css */
 .lg-outer .lg-item {
-  background: url("../img/loading.gif") no-repeat scroll center center transparent;
+  background: url("../css/ripple.gif") no-repeat scroll center center transparent;
   display: none !important; }
 
 /* line 825, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/_lightgallery.css */
@@ -2606,5 +2606,9 @@ figure {
   border-radius: 15%;
   background: rgba(128, 128, 128, 0.88);
   text-align: center; }
+
+/* line 22, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+.lg-outer {
+  transition: background-color 600ms ease 0s; }
 
 /*# sourceMappingURL=styles.css.map */
