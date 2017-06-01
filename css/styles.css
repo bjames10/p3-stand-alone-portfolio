@@ -2592,32 +2592,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s; }
 
 /*# sourceMappingURL=lg-transitions.css.map */
-/* line 9, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 7, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 body {
   background: lightyellow; }
 
-/* line 13, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
-no-js #loader {
-  display: none; }
-
-/* line 14, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
-.js #loader {
-  display: block;
-  position: absolute;
-  left: 100px;
-  top: 0; }
-
-/* line 16, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
-.loader {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(ripple.gif) center no-repeat #fff; }
-
-/* line 26, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 11, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   display: flex;
   flex-wrap: wrap;
@@ -2625,23 +2604,7 @@ figure {
   padding: 1em;
   width: 450px;
   border-radius: 15%;
-  border: 2pt outset rgba(209, 110, 25, 0.88);
   background: rgba(128, 128, 128, 0.88);
   text-align: center; }
-
-/* line 39, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
-figure img {
-  box-shadow: 2px 2px 2px gray;
-  align-items: center;
-  margin: 2pt; }
-
-/* line 44, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
-figtitle {
-  text-align: center;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  background-color: aqua;
-  width: 120;
-  height: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
