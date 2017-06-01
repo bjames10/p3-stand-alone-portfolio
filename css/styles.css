@@ -2594,24 +2594,64 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 /*# sourceMappingURL=lg-transitions.css.map */
 /* line 7, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 body {
-  background: lightyellow; }
+  background: -moz-radial-gradient(center, ellipse cover, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%);
+  background: radial-gradient(ellipse at center, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efebe3', endColorstr='#fcfc88',GradientType=1 ); }
 
-/* line 11, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 14, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+h1 {
+  font-weight: normal;
+  text-decoration: underline;
+  font-variant: small-caps;
+  color: #B3B312;
+  border-radius: 10% 10% 10% 10%;
+  background-color: #FFFBF2;
+  letter-spacing: 5pt;
+  word-spacing: 2pt;
+  font-size: 36px;
+  text-align: center;
+  font-family: courier new, courier, monospace;
+  line-height: 2; }
+
+/* line 29, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+h2 {
+  font-weight: normal;
+  font-variant: small-caps;
+  color: #B3B312;
+  border-radius: 10% 10% 10% 10%;
+  background-color: #FFFBF2;
+  letter-spacing: 2pt;
+  word-spacing: 1pt;
+  font-size: 36px;
+  text-align: center;
+  font-family: courier new, courier, monospace; }
+
+/* line 41, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+h3 {
+  font-weight: bold; }
+
+/* line 44, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+p, h3 {
+  text-align: center; }
+
+/* line 48, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 2.5em;
-  border-radius: 15%;
-  background: rgba(128, 128, 128, 0.88);
-  text-align: center; }
+  border: inset 5pt yellow;
+  border-radius: 5%;
+  text-align: center;
+  background-color: #FFFBF2; }
 
-/* line 22, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 59, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 a {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: column;
   justify-content: center;
   padding: 2pt;
-  border: 3px solid black; }
+  border-bottom: 2pt solid rgba(93, 93, 4, 0.63); }
 
 /*# sourceMappingURL=styles.css.map */

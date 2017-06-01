@@ -5,7 +5,44 @@
 @import "_lg-transitions";
 
 body {
-    background: rgba(255, 255, 224, 0.03);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(239,235,227,0) 0%, rgba(239,235,227,0.98) 83%, rgba(241,237,215,1) 85%, rgba(252,252,136,1) 98%); 
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(239,235,227,0) 0%,rgba(239,235,227,0.98) 83%,rgba(241,237,215,1) 85%,rgba(252,252,136,1) 98%); 
+    background: radial-gradient(ellipse at center, rgba(239,235,227,0) 0%,rgba(239,235,227,0.98) 83%,rgba(241,237,215,1) 85%,rgba(252,252,136,1) 98%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efebe3', endColorstr='#fcfc88',GradientType=1 ); 
+}
+
+h1 {
+    font-weight: normal;
+    text-decoration: underline;
+    font-variant: small-caps;
+    color: #B3B312;
+    border-radius: 10% 10% 10% 10% ;
+    background-color: #FFFBF2;
+    letter-spacing: 5pt;
+    word-spacing: 2pt;
+    font-size: 36px;
+    text-align: center;
+    font-family:courier new, courier, monospace;
+    line-height: 2;
+}
+
+h2 {
+    font-weight: normal;
+    font-variant: small-caps;
+    color: #B3B312;
+    border-radius: 10% 10% 10% 10% ;
+    background-color: #FFFBF2;
+    letter-spacing: 2pt;
+    word-spacing: 1pt;
+    font-size: 36px;
+    text-align: center;
+    font-family:courier new, courier, monospace;
+}
+h3 {
+    font-weight: bold;
+}
+p,h3 {
+    text-align: center;
 }
 
 figure {
@@ -13,9 +50,10 @@ figure {
     flex-wrap: wrap;
     justify-content: center;
     padding: 2.5em;
-   border: solid 2pt black;
+    border: inset 5pt yellow;
     border-radius: 5%;
     text-align: center;
+    background-color: #FFFBF2;
 }
 
 a {
@@ -23,5 +61,5 @@ a {
     flex-wrap: column;
     justify-content: center;
     padding: 2pt;
-    border: 3px solid black;
+    border-bottom: 2pt solid rgba(93, 93, 4, 0.63);
 }
