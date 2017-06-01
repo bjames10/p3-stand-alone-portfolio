@@ -2596,10 +2596,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 body {
   background: -moz-radial-gradient(center, ellipse cover, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%);
   background: -webkit-radial-gradient(center, ellipse cover, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%);
-  background: radial-gradient(ellipse at center, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efebe3', endColorstr='#fcfc88',GradientType=1 ); }
+  background: radial-gradient(ellipse at center, rgba(239, 235, 227, 0) 0%, rgba(239, 235, 227, 0.98) 83%, #f1edd7 85%, #fcfc88 98%); }
 
-/* line 14, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 13, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 h1 {
   font-weight: normal;
   text-decoration: underline;
@@ -2614,7 +2613,7 @@ h1 {
   font-family: courier new, courier, monospace;
   line-height: 2; }
 
-/* line 29, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 28, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 h2 {
   font-weight: normal;
   font-variant: small-caps;
@@ -2627,15 +2626,15 @@ h2 {
   text-align: center;
   font-family: courier new, courier, monospace; }
 
-/* line 41, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 40, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 h3 {
   font-weight: bold; }
 
-/* line 44, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 43, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 p, h3 {
   text-align: center; }
 
-/* line 48, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 47, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 figure {
   display: flex;
   flex-wrap: wrap;
@@ -2646,7 +2645,7 @@ figure {
   text-align: center;
   background-color: #FFFBF2; }
 
-/* line 59, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
+/* line 58, C:/Users/bryan/OneDrive/Documents/GitHub/p3-stand-alone-portfolio/css/styles.scss */
 a {
   display: flex;
   flex-wrap: column;
